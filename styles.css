@@ -7,12 +7,12 @@
 }
 
 .header {
-    background-color: peachpuff;
+    background-color: thistle;
     height: 100vh;
 }
 
 .main-nav {
-    background-color: rgb(11, 107, 107);
+    background-color: teal;
     height: 80px;
 
     display: grid;
