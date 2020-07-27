@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: thistle;
+    height: 100vh;
+}
+
+.main-nav {
+    background-color: teal;
+    height: 80px;
+
+    display: grid;
+    justify-content: center;
+}
+
+.main-nav__list {
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+}
+
+.main-nav__item {
+
+    display: flex;
+}
+
+.main-nav__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: all .6s;
+    padding: 0 14px;
+
+    display: flex;
+    align-items: center;
+}
+
+.main-nav__link:hover {
+    background-color: whitesmoke;
+    color: #000;
+}
